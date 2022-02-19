@@ -1,0 +1,16 @@
+server:
+  port: 82
+spring:
+  rabbitmq:
+    password: 19981021
+    username: lxg
+    host: 119.45.186.84
+    port: 5672
+    listener:
+      simple:
+        acknowledge-mode: manual
+    virtual-host: /
+  redis:
+    host: 119.45.186.84
+    port: 6380
+    password: 19981021
